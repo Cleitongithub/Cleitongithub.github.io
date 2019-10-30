@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <main>
+        <div class="navegacao">
+            <button class="abrir">Menu</button>
+            <nav class="barra-nav">
+            <button class="fechar">Fechar Menu</button>
+            <ul class="menu-principal">
+                <li class="primeiro"><a href="#home">Home</a>
+                <li class="segundo"><a href="#sobre">Sobre</a>
+                <li class="terceiro"><a href="#competencias">Competencias</a>
+                <li class="quarto"><a href="#contato">Contatos</a>
+            </ul>
+            </nav>    
+        </div>
+    <header class="inicio" id="home">
+            <h1 class="titulo">Cleiton Garcia Palma</h1>
+            <p class="texto">Apaixonado Por Tecnologia e Desenvolvimento</p>
+            <img onmouseover="grande(this)" onmouseout="normal(this)" class="foto01" src="img/CYMERA_20170909_115316%20(2).jpg" width="12">
+            <ul>
+            <li class="home ht">Html5</li>    
+            <li class="home cs">Css3</li>    
+            <li class="home jv">Javascript</li>    
+            <li class="home bo">Bootstrap</li>    
+            <li class="home jq">Jquery</li>    
+            <li class="home re">React</li>
+            <li class="home no">Node</li>
+            <li class="home ty">TypeScript</li>
+            <li class="home an">Angular</li>
+            <li class="home co">Codigo Limpo</li>
+            <li class="home res">Responsivo</li>
+            </ul>
+    </header>
+        <section class="sub" id="sobre">
+            <h2 class="sobre">Sobre Mim</h2>
+            <img class="foto02" src="img/Foto01.jpg">
+              <div class="paragrafo">
+                <p>Olá me chamo Cleiton tenho 25 anos Moro na Região de Ribeirão Preto e atualmente estou cursando Análise e Desenvolvimento de Sistemas, já estou no 3 semestre e estou gostando muito desta area de desenvolvimento e nao tinha noção o quanto é extraordinária.
+                </p><br>
+                <p>
+                Sou uma pessoa que gosta de desafios e de aprender novas tecnologias sempre me dedico a saber de novidades novas, meu principal foco é desenvolvimento FronEnd amo construir e otimizar as interfaces de um projeto web mais pretendo futuramente ser um otimo profissional como Front e back
+                </p><br>
+                <p>
+                Em minhas Horas vagas gosto muito de passear, viajar, passar o tempo com minha familia e minha Noiva. Também estudo e aprimoro meus conhecimentos para ser um otimo desenvolvedor!
+                </p><br>
+             </div>
+        </section>
+        <h2 id="competencias" class="habilits">Habilidades</h2>
+        <div class="flex-container">
+                <div class="hth"></div>
+                <div class="csh"></div>
+                <div class="jah"></div>
+                <div class="ch"></div>
+                <div class="gh"></div>
+                <div class="bh"></div>
+        </div>
+         <section>
+             <table class="habilidade">
+                <thead>
+                    <tr>
+                        <th>Habilidade</th>
+                        <th>Nível</th>
+                        <th>Experiências</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="htt">HTML5</th>
+                        <th>Intermediario</th>
+                        <th>Uso em todos os sites que desenvolvo</th>
+                    </tr>
+                    <tr>
+                        <th class="css">CSS3</th>
+                        <th>Intermediario</th>
+                        <th>Uso em todos os sites que desenvolvo</th>
+                    </tr>
+                    <tr>
+                        <th class="jss">JavaScript</th>
+                        <th>Basico</th>
+                        <th>Uso em quase todos os sites que desenvolvo</th>
+                    </tr>
+                    <tr>
+                        <th class="chh">C#</th>
+                        <th>Basico</th>
+                        <th>Desenvolvimento Orientado a Objetos</th>
+                    </tr>
+                    <tr>
+                        <th class="gith">GitHub</th>
+                        <th>Basico</th>
+                        <th>Uso para resgistrar historico e edições de meus arquivos</th>
+                    </tr>
+                    <tr>
+                        <th class="bank">Banco de Dados</th>
+                        <th>Basico</th>
+                        <th>Conhecimento em Mysql</th>
+                    </tr>
+                </tbody>
+              </table>   
+       </section>
+       <aside id="contato">
+            <h2 class="contato">Dados Para Entrar em Contato!</h2>
+                <ul class="link">
+                    <li><a href="https://www.linkedin.com/in/cleiton-garcia-palma-67b89918a/" class="linkedin" data-tooltip="Veja Meu Curriculo">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/Cleitongithub" class="hub" data-tooltip="Veja Meus Projetos OpenSource">GitHub</a>
+                    </li>
+                    <li><a href="https://www.google.com/intl/pt/gmail/about/#" class="email" data-tooltip="cleitongarciapalma@gmail.com">Email</a>
+                    </li>
+                    <li class="whats" data-tooltip="(16)99434-1696">Whatsapp
+                    </li>
+                </ul>
+       </aside>    
+    </main>
+        <footer class="rodape">
+            &copy; Cleiton Garcia Palma 2019
+        </footer>
+    <script src="js/codigo.js"></script>
+</body>    
+</html>

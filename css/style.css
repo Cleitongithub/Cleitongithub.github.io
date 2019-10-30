@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    width: 100%;
+    display: block;
+    background-color: aquamarine;
+}
+main {
+    width: 100%;
+}
+.titulo {
+    text-align: center;
+    font-size: 400%;
+    text-transform: uppercase;
+    font-family: monospace;
+    line-height: 1.5;
+    padding: 1%;
+    color: white;
+    text-shadow: 1px 3px 30px skyblue, 0 0 25px black, 0 0 5px red;
+}
+.texto {
+    text-align: center;
+    font-size: 200%;
+    text-transform: lowercase;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 1px 2px black;
+
+}
+.inicio {
+    width: 100%;
+    background: firebrick;
+    position: relative;
+}
+.foto01 {
+    width: 12%;
+    border-radius: 10em;
+}
+.foto01 {
+    position: absolute;
+    position: relative;
+    left: 43%;
+}
+.home {
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0
+    padding-bottom: 0;
+    font-size: 150%;
+    color: white;
+    font-family: "courier new";
+}
+@media (max-width: 1024px) {
+    .home {
+        font-size: 0;
+    }
+}
+ul {
+    list-style-type: none;
+}
+.ht {
+    left:  70%;
+    top: 10%;
+    transform: scale(1.3) rotate(8deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+-webkit@keyframes example {
+    from {
+        background-color: black;
+    }
+}
+@keyframes example {
+    from {
+        background-color: black;
+    }
+}
+.cs {
+    left: 25%;
+    top: 10%;
+    transform: scale(1.3) rotate(-10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.jv {
+    top: 20%;
+    left: 80%;
+    transform: scale(1.3) rotate(-10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.bo {
+    top: 35%;
+    left: 20%;
+    transform: scale(1.3) rotate(10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.jq {
+    top: 50%;
+    left: 72%;
+    transform: scale(1.3) rotate(-10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.re {
+    top: 20%;
+    left: 10%;
+    transform: scale(1.3) rotate(-10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.no {
+    top: 75%;
+    left: 80%;
+    transform: scale(1.3) rotate(15deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.ty {
+    top: 70%;
+    left: 12%;
+    transform: scale(1.3) rotate(-15deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.an {
+    top: 50%;
+    left: 90%;
+    transform: scale(1.3) rotate(10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.co {
+    top: 50%;
+    left: 2%;
+    transform: scale(1.3) rotate(10deg);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.res {
+    top: 0%;
+    left: 46%;
+    transform: scale(1.3);
+    transition: 4s;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 1px 2px 25px black;
+}
+.sub {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.sobre {
+    font-size: 250%;
+    text-transform: uppercase;
+    font-family: "georgia";
+}
+.sobre:hover {
+     text-shadow: 2px 3px 8px white, 0 0 30px black;
+}
+.paragrafo {
+    width: 40%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 125%;
+    position: relative;
+    left: 30%;
+    margin-top: 2em;
+    font-family: "courier new";
+    font-weight: bold;
+}
+.foto02 {
+    width: 30%;
+    box-shadow: 1em 1em 5em black;
+    transition: transform 1s linear, box-shadow 2s ease-in-out;
+    transition-delay: 0.2s;
+}
+.foto02:hover {
+    -webkit-transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.5);
+}
+@media (max-width: 600px) {
+    .foto02 {
+        width: 90%;
+    }
+}

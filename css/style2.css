@@ -40,14 +40,12 @@
     background-image: url(../img/banco.png);
     background-size: cover;
 }
-@media (min-width: 360px){
-    .habilidade {
-        width: 100%;
-    }
+@media (min-width: 320px){
 .habilidade {
     border-collapse: separate;
     border-spacing: .10em;
     margin: 0;
+    width: 100%;
 }
 }
 .habilidade th {

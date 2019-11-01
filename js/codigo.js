@@ -18,5 +18,5 @@ $('.menu-principal a').click(function(e){
         menuHeight = $('.menu-principal').innerHeight();
     $('html, body').animate({
         scrollTop: targetOffetset -menuHeight
-    }, 1000);
+    }, 2500);
 });
